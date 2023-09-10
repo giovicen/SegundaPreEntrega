@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../Fotos/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto - Midori Cat Hotel</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #9caf88;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="logo" src="../Fotos/logonombre.png" alt="logonombre" style="width:150px;"></a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/about.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/galeria.html">Galería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                  </li>
+                </ul>               
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contactanos</h2>
+        <p>Dejanos tu mensaje y te contactaremos en breve:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="../Fotos/header 2.jpg" style="width:500px" class="rounded">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <input type="text" id="fname" name="firstname" placeholder="Nombre..">
+            <input type="text" id="email" name="correo" placeholder="Correo..">
+            <select id="country" name="country">
+              <option value="uruguay">Uruguay</option>
+              <option value="argentina">Argentina</option>
+              <option value="chile">Chile</option>
+            </select>
+            <textarea id="subject" name="subject" placeholder="Dejanos tu consulta.." style="height:170px"></textarea>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
