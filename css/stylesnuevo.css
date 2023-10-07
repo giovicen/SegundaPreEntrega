@@ -8,16 +8,8 @@ body {
   background-color: #ffffff;
 }
 
-.container-inicio {
-  width: 80%;
-  margin: 200px auto;
-  display: grid;
-  text-align: center;
-}
-
-.container-gatos {
-  display: flex;
-  gap: 50px;
+header {
+  background-color: #9caf88;
 }
 
 .col {
@@ -25,37 +17,74 @@ body {
   align-items: center;
 }
 
-.destacado {
+.container {
+  width: 80%;
+  margin: 200px auto;
+  display: grid;
   text-align: center;
-  color: #758467;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
 }
 
-.card {
-  border-radius: 10px;
-  min-width: 500px;
-  min-height: 500px;
-  padding: 100px;
-  margin-top: 100px;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center center;
+h1 {
+  color: #819171;
 }
 
-.contenedor-galeria {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 40px 0;
+.container-inicio {
+  width: 80%;
+  margin: 200px auto;
+  display: grid;
+  text-align: center;
 }
 
-.img-destacado {
+main .container-fluid {
+  display: flex;
+  gap: 50px;
+  background-color: #cbd5c0;
+}
+main .container-fluid .row .col .img-destacado {
+  width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+main .container-fluid .row .col .img-destacado {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .container-fluid .row .col .img-destacado {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .container-fluid .row2 .col .destacado {
+  text-align: center;
+  color: #758467;
+}
+main .container-fluid .row2 .col .destacado {
+  text-align: center;
+  color: #758467;
+}
+main .container-fluid .row2 .col .destacado {
+  text-align: center;
+  color: #758467;
+}
 
-input[type=text], select, textarea {
+body .container .row .col-sm-4 nav-pills flex-column .nav-item .nav-link active {
+  background-color: #9caf88;
+}
+
+.txtBlog {
+  text-align: left;
+}
+
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -76,16 +105,6 @@ input[type=submit]:hover {
   background-color: #cbd5c0;
 }
 
-.container {
-  width: 80%;
-  margin: 200px auto;
-  display: grid;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
 .column {
   float: left;
   width: 50%;
@@ -100,13 +119,29 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+  .column,
+  input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
-.txtBlog {
-  text-align: left;
+.contenedor-galeria {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.card {
+  border-radius: 10px;
+  min-width: 500px;
+  min-height: 500px;
+  padding: 100px;
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
 }
 
 /*# sourceMappingURL=stylesnuevo.css.map */

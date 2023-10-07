@@ -1,0 +1,19 @@
+body {
+    .container {
+        .row {
+            .col-sm-4 {
+                nav-pills flex-column {
+                    .nav-item {
+                        .nav-link active {
+                            background-color: $colorNav;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.txtBlog {
+    text-align: left;
+}

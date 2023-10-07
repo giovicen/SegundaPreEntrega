@@ -1,0 +1,70 @@
+h1 {
+    color: $colorSecundario
+}
+
+.container-inicio {
+    width: 80%;
+    margin: 200px auto;
+    display: grid;
+    text-align: center;
+}
+
+main {
+    .container-fluid {
+        display: flex;
+        gap: 50px;
+        background-color: $colorAcento;
+
+        .row {
+            .col {
+                .img-destacado {
+                    width: 300px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .col {
+                .img-destacado {
+                    width: 300px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .col {
+                .img-destacado {
+                    width: 300px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+
+        .row2 {
+            .col {
+                .destacado {
+                    text-align: center;
+                    color: $colorPrincipal;
+                }
+            }
+
+            .col {
+                .destacado {
+                    text-align: center;
+                    color: $colorPrincipal;
+                }
+            }
+
+            .col {
+                .destacado {
+                    text-align: center;
+                    color: $colorPrincipal;
+                }
+            }
+        }
+    }
+}

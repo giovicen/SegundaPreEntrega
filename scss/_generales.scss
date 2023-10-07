@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header {
+    background-color: $colorNav;
+}
+
+.col{
+    padding: 20px;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+	margin: 200px auto;
+    display: grid;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
