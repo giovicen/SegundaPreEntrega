@@ -13,61 +13,51 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="../Fotos/logonombre.png" alt="logonombre"
-            style="width:150px;"></a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/about.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Galería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+          <div class="nav-title">
+              <a class="navbar-brand" href="#"><img class="logo" src="../Fotos/logonombre.png" alt="logonombre"
+                  style="width:150px;"></a>
+          </div>
       </div>
-    </nav>
+      <div class="nav-btn">
+          <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+          </label>
+      </div>
+
+      <div class="nav-links">
+          <a class="nav-link" href="/index.html">Home</a>
+          <a class="nav-link active" href=/pages/about.html>Nosotros</a>
+          <a class="nav-link" href="/pages/blog.html">Blog</a>
+          <a class="nav-link active" aria-current="page" href="/pages/galeria.html">Galería</a>
+          <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+      </div>
+  </div>
   </header>
 
-  <div class="contenedor" style="width: 99%;">
+  <div class="contenedor" style="width: 97%;">
     <div class="row">
       <div class="col">
         <div class="contenedor-galeria">
-          <div class="card" style="background-image: url('../Fotos/galeria\ 1.jpg')">
-          </div>
-          <div class="card" style="background-image: url('../Fotos/galeria\ 2.jpg')">
-          </div>
-          <div class="card" style="background-image: url('../Fotos/galeria\ 3.jpg')">
-          </div>
-          <div class="card" style="background-image: url('../Fotos/galeria\ 4.jpg')">
-          </div>
-          <div class="card" style="background-image: url('../Fotos/galeria\ 5.jpg')">
-          </div>
+          <img class="imagenCuadrada" src="../Fotos/galeria 1.jpg">
+          <img class="imagenCuadrada" src="../Fotos/galeria 2.jpg">
+          <img class="imagenCuadrada" src="../Fotos/galeria 3.jpg">
+          <img class="imagenCuadrada" src="../Fotos/galeria 4.jpg">
+          <img class="imagenCuadrada" src="../Fotos/galeria 5.jpg">
         </div>
       </div>
 
       <div class="col">
         <div class="contenedor-galeria">
-          <div class="card" style="background-image: url('../Fotos/galeria\ 6.jpg')">
-          </div>
-          <div class="card" style="background-image: url('../Fotos/galeria\ 7.jpg')">
-          </div>
-          <div class="card" style="background-image: url('../Fotos/galeria\ 8.jpg')">
-          </div>
-          <div class="card" style="background-image: url('../Fotos/galeria\ 9.jpg')">
-          </div>
-          <div class="card" style="background-image: url('../Fotos/galeria\ 10.jpg')">
+          <img class="imagenCuadrada" src="../Fotos/galeria 6.jpg">
+          <img class="imagenCuadrada" src="../Fotos/galeria 7.jpg">
+          <img class="imagenCuadrada" src="../Fotos/galeria 8.jpg">
+          <img class="imagenCuadrada" src="../Fotos/galeria 9.jpg">
+          <img class="imagenCuadrada" src="../Fotos/galeria 10.jpg">
           </div>
         </div>
       </div>

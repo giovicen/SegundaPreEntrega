@@ -13,31 +13,30 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="./Fotos/logonombre.png" alt="logonombre"
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+                <div class="nav-title">
+                    <a class="navbar-brand" href="#"><img class="logo" src="../Fotos/logonombre.png" alt="logonombre"
                         style="width:150px;"></a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/about.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/galeria.html">Galería</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </nav>        
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <div class="nav-links">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                <a class="nav-link" href=/pages/about.html>Nosotros</a>
+                <a class="nav-link" href="/pages/blog.html">Blog</a>
+                <a class="nav-link" href="/pages/galeria.html">Galería</a>
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+            </div>
+        </div>
     </header>
     <img class="img-fluid" src="./Fotos/welcome2.png" alt="bienvenidos">
 
@@ -55,10 +54,10 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <img src="./Fotos/about3.jpg" class="rounded" style="width:590px;">
+                    <img src="./Fotos/about3.jpg" class="rounded img-fluid" style="width:590px;">
                 </div>
                 <div class="col">
-                    <img src="./Fotos/about1.jpg" class="rounded" style="width:700px;">
+                    <img src="./Fotos/about1.jpg" class="rounded img-fluid" style="width:700px;">
                 </div>
             </div>
         </div>
@@ -66,15 +65,15 @@
         <br>
 
         <div class="container-fluid" class="container-gatos">
-            <div class="row">
+            <div class="flex-container">
                 <div class="col">
-                    <img class="img-destacado" src="./Fotos/img1.png">
+                    <img class="img-destacado img-fluid" src="./Fotos/img1.png">
                 </div>
                 <div class="col">
-                    <img class="img-destacado" src="./Fotos/img2.png">
+                    <img class="img-destacado img-fluid" src="./Fotos/img2.png">
                 </div>
                 <div class="col">
-                    <img class="img-destacado" src="./Fotos/img3.png">
+                    <img class="img-destacado img-fluid" src="./Fotos/img3.png">
                 </div>
             </div>
             <div class="row2">

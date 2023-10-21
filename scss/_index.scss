@@ -9,11 +9,25 @@ h1 {
     text-align: center;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  @media (max-width: 1010px) {
+    .flex-container {
+      flex-direction: column;
+      width: 160px;
+    }
+  }
+
 main {
     .container-fluid {
         display: flex;
         gap: 50px;
         background-color: $colorAcento;
+
 
         .row {
             .col {
@@ -66,5 +80,6 @@ main {
                 }
             }
         }
+
     }
 }

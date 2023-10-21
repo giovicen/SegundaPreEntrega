@@ -13,31 +13,30 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="../Fotos/logonombre.png" alt="logonombre"
-            style="width:150px;"></a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/about.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/galeria.html">Galería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+          <div class="nav-title">
+              <a class="navbar-brand" href="#"><img class="logo" src="../Fotos/logonombre.png" alt="logonombre"
+                  style="width:150px;"></a>
+          </div>
       </div>
-    </nav>
+      <div class="nav-btn">
+          <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+          </label>
+      </div>
+
+      <div class="nav-links">
+          <a class="nav-link" href="/index.html">Home</a>
+          <a class="nav-link" href=/pages/about.html>Nosotros</a>
+          <a class="nav-link" href="/pages/blog.html">Blog</a>
+          <a class="nav-link" href="/pages/galeria.html">Galería</a>
+          <a class="nav-link active" aria-current="page" href="/pages/contacto.html">Contacto</a>
+      </div>
+  </div>
   </header>
 
   <div class="container">
@@ -47,7 +46,7 @@
     </div>
     <div class="row">
       <div class="column">
-        <img src="../Fotos/header 2.jpg" style="width:500px" class="rounded">
+        <img src="../Fotos/header 2.jpg" style="width:500px" class="img-fluid rounded">
       </div>
       <div class="column">
         <form action="/action_page.php">

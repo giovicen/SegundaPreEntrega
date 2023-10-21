@@ -13,38 +13,37 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="../Fotos/logonombre.png" alt="logonombre"
-            style="width:150px;"></a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/galeria.html">Galería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+          <div class="nav-title">
+              <a class="navbar-brand" href="#"><img class="logo" src="../Fotos/logonombre.png" alt="logonombre"
+                  style="width:150px;"></a>
+          </div>
       </div>
-    </nav>
+      <div class="nav-btn">
+          <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+          </label>
+      </div>
+
+      <div class="nav-links">
+          <a class="nav-link" href="/index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href=/pages/about.html>Nosotros</a>
+          <a class="nav-link" href="/pages/blog.html">Blog</a>
+          <a class="nav-link" href="/pages/galeria.html">Galería</a>
+          <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+      </div>
+  </div>
   </header>
 
   <main>
     <div class="container-inicio">
       <div class="row">
         <div class="col">
-          <img src="../Fotos/about.jpg" class="rounded" style="width:500px;">
+          <img src="../Fotos/about.jpg" class="img-fluid rounded" style="width:500px;">
         </div>
         <div class="col">
           <p>Midori surge en 2023 con la idea de ayudar a todo aquel que tenga que irse de vacaciones y necesite un
@@ -55,7 +54,7 @@
             sea en su habitación privada o en nuestro gran patio donde podrá socializar con otros felinos.
           </p>
           <br>
-          <img src="../Fotos/about2.jpg" class="rounded" style="width:800px;">
+          <img src="../Fotos/about2.jpg" class="img-fluid rounded" style="width:800px;">
         </div>
 
 
